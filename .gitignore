@@ -1,0 +1,20 @@
+# Compiled binaries
+bin/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Runtime banking data
+data/accounts.dat
+data/txn.log
+data/*.tmp
+
+# Environment files
+.env
+.env.*
+!.env.example
